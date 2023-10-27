@@ -39,4 +39,6 @@ You can change the Path property to the source directory you want to monitor and
 
 If you encounter any issues while running the code, please ensure that you have the required .NET runtime installed and that the specified directories are accessible.
 
+## License
 
+This project is licensed under the [MIT LICENSE](https://github.com/IvanPedroza/File-Watcher/blob/master/LICENSE.md).
