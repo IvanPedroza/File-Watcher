@@ -3,30 +3,6 @@ open System
 open System.Linq
 open System.Threading
 
-
-//First Block is constructed in C# and is being left in for reference
-//class CustomWatcher
-//{
-//    public void StartWatching()
-//    {
-//        var fw = new FileSystemWatcher
-//        {
-//            //Filter = "*.fs",
-//            Path = "C:/Work/SieraSolutions/blog/SieraSolutionsBlog/SieraSolutionsBlog", // Any path  
-//            IncludeSubdirectories = false,
-//            //SynchronizingObject = (System.ComponentModel.ISynchronizeInvoke)this,
-//            EnableRaisingEvents = true
-//        };
-
-//        fw.Changed += OnChange;
-//    }
-
-//    private void OnChange(object sender, FileSystemEventArgs e) => ExecuteCompilerService();
-
-//    private void ExecuteCompilerService() {}
-//}
-
-
 [<EntryPoint>]
 let main argv =
     //User interface
